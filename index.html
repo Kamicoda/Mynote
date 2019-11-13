@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <!--Css-->
+    <link rel="stylesheet" href="assets/style/style.css" type="text/css" />
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!--Scripts-->
+    <script src="https://kit.fontawesome.com/06adabaaa3.js"></script>
+    <script type="text/javascript" src="assets/js/script1.js"></script>
+    <script type="text/javascript" src="assets/js/script2.js"></script>
+
+
+</head>
+
+<body class="bgbody" onload="checkEdits()">
+
+    <!--navigation-->
+    <div class="container-fluid bg-dark">
+        <ul class="nav justify-content-center w-80">
+            <li class="nav-item">
+                <button id="aboutNav" type="button" class="btn btn-secondary btn-lg ">About</button>
+            </li>
+            <li class="nav-item">
+                <button id="notesNav" type="button" class="btn btn-primary btn-lg">Notes</button>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="jumbotron header bg-grey mx-auto">
+        <h2> Have you forgotten something?</h2>
+        <h4>Try typing them them down!</h4>
+    </div>
+
+    <div class="jumbotron header bg-light mx-auto">
+        <div class="container-flex">
+
+
+            <section id="aboutSec">
+                <div class="row">
+                    <div class="col">
+                        <h1>About</h1>
+                        <p>here to help you remember!</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>this website should make writing things down a little easier there are a few geatures to be added at some point, these include a printable nates list, the ability to create and delete your notes, ability to add thumbnails
+                                    with your links(WIP) and more!</p>
+                            </div>
+                            <div class="col-4">
+                                <p>to use this site simply type in your thoughts and click save!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <section id="notesSec">
+            <div class="row">
+
+                <div class="col-8">
+                    <h1>notes</h1>
+                    <p>content here</p>
+                    <div id="editList" class="#">
+
+                        <p id="edit" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit1" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit2" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit3" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit4" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit5" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit6" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit7" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit8" contenteditable="true" class="editableP"></p>
+
+                        <p id="edit9" contenteditable="true" class="editableP"></p>
+
+                        <div>
+                            <div>
+                                <button type="button " onclick="save()" class="saveButton">Save
+                        <i class="fas fa-file-download"></i></button>
+                            </div>
+
+                            <div id="update"> Edit the text and click to save for next time </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h1>boxes</h1>
+                    <p>content here</p>
+                    <div id="checkBox" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+                    <div id="checkBox1" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+                    <div id="checkBox2" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+                    <div id="checkBox3" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+                    <div id="checkBox4" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+                    <div id="checkBox5" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+                    <div id="checkBox6" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+                    <div id="checkBox7" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+                    <div id="checkBox8" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+                    <div id="checkBox9" class="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="far fa-check-square"></i>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+</body>
+<footer>
+
+</footer>
+
+</html>
