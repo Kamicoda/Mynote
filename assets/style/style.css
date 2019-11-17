@@ -38,21 +38,35 @@ RGB: 102–143–232
 }
 
 .bg-light {
-    background-color: rgba(72, 63, 57, 1);
+    background-color: rgba(72, 63, 57, 0.5);
+    
 }
 
 /*background*/
+.border-dark {
+    margin-top: 15px;
+    border-width: 5px !important;
+    
+    border-bottom-style: solid;
+    border-color: rgba(39, 42, 48, 1);
+}
+
+.border-light {
+    margin-top: 15px;
+    border-width: 2px !important;
+    
+    border-bottom-style: solid;
+    border-color: rgba(39, 42, 48, 1) !important;
+    border-radius: 3px;
+}
 
 .bgbody {
-    background: url("./assets/style/notesBg.jpg");
+    background: url("notesBg.jpg");
     Margin: 0;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
     min-width: 100%;
-    max-height: 100%;
-    max-width: 992px;
     z-index: -1;
 }
 
@@ -62,23 +76,37 @@ RGB: 102–143–232
     width: 100%;
 }
 
+.nav-item {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
 
 .btn {
     border-radius: 0;
     width: 250px;
+    border-radius: 3px;
 }
 
 .header {
     text-align: center;
     width: 1000px;
-}
+    
+    }
 
 .editableP {
     padding: 5;
-    background-color: rgba(102, 143, 232, 1);
-
-
+    background-color: rgba(214, 226, 243, 1);
+    display: inline-block;
+    width: 800px;
 }
+
+.cont {
+  background: rgb(236,241,252);
+background: linear-gradient(90deg, rgba(236,241,252,0.835171568627451) 30%, rgba(7,83,133,1) 100%);
+    
+}
+
 
 .ul .li {
     list-style: none;
@@ -87,4 +115,5 @@ RGB: 102–143–232
 .checkbox {
     margin-bottom: 16px;
     text-align: left;
+    display: inline-block;
 }

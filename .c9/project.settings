@@ -1,5 +1,9 @@
 {
+    "instance": {
+        "@automaticShutdown": "240"
+    },
     "language": {
+        "@warnLevel": "warning",
         "tern_defs": {
             "json()": {
                 "browser": {
