@@ -35,18 +35,21 @@ RGB: 102–143–232
 
 .bg-grey {
     background-color: rgba(48, 70, 119, 1);
+    background: rgb(246, 156, 9);
+    background: linear-gradient(173deg, rgba(246, 156, 9, 0.8071603641456583) 6%, rgba(203, 255, 76, 0.8267682072829132) 25%, rgba(60, 244, 115, 0.8099614845938375) 45%, rgba(67, 240, 244, 0.7315301120448179) 62%, rgba(81, 121, 172, 0.8407738095238095) 78%, rgba(2, 8, 69, 0.8015581232492998) 100%);
 }
 
 .bg-light {
     background-color: rgba(72, 63, 57, 0.5);
-    
+
 }
 
 /*background*/
+
 .border-dark {
     margin-top: 15px;
     border-width: 5px !important;
-    
+
     border-bottom-style: solid;
     border-color: rgba(39, 42, 48, 1);
 }
@@ -54,7 +57,7 @@ RGB: 102–143–232
 .border-light {
     margin-top: 15px;
     border-width: 2px !important;
-    
+
     border-bottom-style: solid;
     border-color: rgba(39, 42, 48, 1) !important;
     border-radius: 3px;
@@ -63,11 +66,18 @@ RGB: 102–143–232
 .bgbody {
     background: url("notesBg.jpg");
     Margin: 0;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-width: 100%;
     z-index: -1;
+}
+
+.catnote {
+    background: url("catnote.jpg");
+    width: 300px;
+    height: 218px;
+    background-position: center;
 }
 
 .navigationbackground {
@@ -88,11 +98,19 @@ RGB: 102–143–232
     border-radius: 3px;
 }
 
+.btn-primary {
+    background-color: #d68f35;
+}
+
+.btn-secondary {
+    background-color: #543c88;
+}
+
 .header {
     text-align: center;
     width: 1000px;
-    
-    }
+
+}
 
 .editableP {
     padding: 5;
@@ -102,9 +120,9 @@ RGB: 102–143–232
 }
 
 .cont {
-  background: rgb(236,241,252);
-background: linear-gradient(90deg, rgba(236,241,252,0.835171568627451) 30%, rgba(7,83,133,1) 100%);
-    
+    background: rgb(236, 241, 252);
+    background: linear-gradient(90deg, rgba(236, 241, 252, 0.835171568627451) 30%, rgba(7, 83, 133, 1) 100%);
+
 }
 
 
@@ -116,4 +134,12 @@ background: linear-gradient(90deg, rgba(236,241,252,0.835171568627451) 30%, rgba
     margin-bottom: 16px;
     text-align: left;
     display: inline-block;
+}
+
+.fancytext {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.fancytextsm {
+    font-family: 'Alfa Slab One', cursive;
 }

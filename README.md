@@ -13,5 +13,4 @@ updates and bugs:
 . checkboxes not suplaying the correct class (found bug working on it)
 . games button removed due to zero content
 . links button removed due to zero content
-# Mynote
-# Mynote
+
