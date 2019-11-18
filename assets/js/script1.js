@@ -81,15 +81,4 @@ $(document).ready(function() {
         $('#fabox9').toggle();
     });
 
-
-    // $('#new').on('click', function() {
-    //  count += 1;
-    //  $('#item' + count).show()
-    //$('#editList').append(`<p id="edit` + count + `" contenteditable="true" class="editableP"></p><button type="button " onclick="save`+ count +`()" class="saveButton">Save
-    // <i class="fas fa-file-download"></i></button>`);
-
-    // });
 });
-
-// this is adding numbers to the ID "edit"
-var count = 0;

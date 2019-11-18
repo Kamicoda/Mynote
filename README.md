@@ -1,16 +1,32 @@
-this website is for notes it saves your notes to local storage so you can open them up at any time
+# Notes
 
-initialy tere was meant to be more to this site however i ignored KISS and ended up recreatingt his site multiple times (lesson learned)
-there will be more added at some point in the future i wil return to this app and do what i originaly intended to do
+Notes is a small project to help you(and me) remember things!
 
-updates and bugs:
+## Usage
+
+simple and straight forward it saves your notes to your browsers localstorage
+
+## Issues and buggs
 
 
-. original design was 4 buttons in the center of the screen (redesigned)
-. storage bug (fixed)
-. creating mutiple instences was causing the storage to incorrenctly save ("new" feature removed)
-. notes were bieng saved across all the "edit" divs (fixed)
-. checkboxes not suplaying the correct class (found bug working on it)
-. games button removed due to zero content
-. links button removed due to zero content
+the checkboxes will appear underneath the input box on some viewports (not all)
+``` Working on a fix after submission ```
+
+there maybe a conflict with older browser support
+
+
+## Update
+
+i will be adding more content in the future this app is a starting point for a much bigger app
+``` these will include:
+.better data storage
+.a loggin screen for customisable options
+.a function to save links with img tags
+.a function to save and play music from soundcloud,youtube and spotify
+.headers to your notes
+.and a function to set reminders at certain times or dates that will ping up an alert on your desktop or phone
+```
+##patch 1.0
+
+patches and updates will be notes and added here! 
 
