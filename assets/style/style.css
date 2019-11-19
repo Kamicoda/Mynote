@@ -15,6 +15,12 @@
     background-color: rgba(72, 63, 57, 0.5);
 
 }
+/* Container color */
+.cont {
+    background: rgb(236, 241, 252);
+    background: linear-gradient(90deg, rgba(236, 241, 252, 0.9) 30%, rgba(63, 131, 176, 1) 100%);
+
+}
 
 /*background*/
 
@@ -33,6 +39,7 @@
     border-radius: 3px;
 }
 
+/*background image*/
 .bgbody {
     background: url("notesBg.jpg");
     Margin: 0;
@@ -40,13 +47,17 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
+    background-size: cover;
 }
 
+/*Cat note*/
 .catnote {
-    background: url("catnote.jpg");
-    width: 300px;
+    background-image: url("catnote.jpg");
+    background-size: contain;
+    width: 100%;
     height: 218px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navigationbackground {
@@ -69,6 +80,7 @@
     text-shadow: 2px 2px 4px #000000;
 }
 
+/*top navigation buttons "about" and "notes" */
 .btn-primary {
     background-color: #d68f35;
 }
@@ -99,7 +111,8 @@
     background-color: #6a42bf;
 }
 
-.btn-secondary.focus, .btn-secondary:focus {
+.btn-secondary.focus,
+.btn-secondary:focus {
     box-shadow: 0 0 0 0.2rem rgb(84, 60, 136);
 }
 
@@ -109,12 +122,20 @@
     background-color: #543c88;
 }
 
+/*size controlls for the jumbotrons that hold the content */
 .header {
     text-align: center;
     width: 80%;
-
 }
 
+
+@media only screen and (max-width: 576px) {
+    .header {
+        width: 100%;
+    }
+}
+
+/* the input sections where you can type into */
 .editableP {
     padding: 5;
     background-color: rgba(214, 226, 243, 1);
@@ -124,12 +145,12 @@
     width: 90%;
 }
 
-.cont {
-    background: rgb(236, 241, 252);
-    background: linear-gradient(90deg, rgba(236, 241, 252, 0.9) 30%, rgba(63, 131, 176, 1) 100%);
-
+@media only screen and (max-width: 320px) {
+    .editableP {
+        width: 80%;
+        padding: 0px !important;
+    }
 }
-
 
 .ul .li {
     list-style: none;
@@ -138,9 +159,10 @@
 .checkbox {
     font-size: 28px;
     display: inline-block;
-    transform: translate(0px,4px);
+    transform: translate(0px, 4px);
 }
 
+/* text styling for the welcome box */
 .fancytext {
     font-family: 'Alfa Slab One', cursive;
     color: #d68f35;

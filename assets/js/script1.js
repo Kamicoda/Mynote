@@ -10,10 +10,7 @@ $(document).ready(function() {
     $('#headerabout').toggle();
     $('#headernotes').toggle();
 
-    //$('#item').toggle();
-    //$('#item1').toggle();
-    //$('#item2').toggle();
-
+//navigation buttons hide and show relivent content
     $('#aboutNav').on('click', function() {
         $('#aboutSec').show(1000);
         $('#notesSec').hide(1000);
@@ -30,7 +27,8 @@ $(document).ready(function() {
         $('#headerabout').hide();
 
     });
-
+    
+// these makes the checkboxes tickable
     $('#checkBox').on('click', function() {
         $('#fasquare').toggle();
         $('#fabox').toggle();

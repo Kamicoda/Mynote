@@ -2,18 +2,43 @@
 
 Notes is a small project to help you(and me) remember things!
 
-## Usage
+## UX
+
+this app is designed to be easy to acces and store loose thoughts like a notepad
+as someone that forgets simple things this is a boon to me
+
+
+## Features
 
 simple and straight forward it saves your notes to your browsers localstorage
 
-## Issues and buggs
+## testing
 
+through google dev tools i ran an audit 
+```Performance : 96
+   accessibility: 92
+   Best practices: 93
+   SEO: 82
+```
+## Technology
+
+```this app was built with html, Css , javacript and Jquery
+background art assets have been built with clip studio and edited with Photoshop CC 2019
+```
+
+## Issues and buggs
+```
+URL
+Description
+/_static/index.html(c48d5acd472141b0a3fc5cf79cb9b575.vfs.cloud9.eu-west-1.amazonaws.com)
+Unchecked runtime.lastError: The message port closed before a response was received.
+
+/favicon.ico(c48d5acd472141b0a3fc5cf79cb9b575.vfs.cloud9.eu-west-1.amazonaws.com)
+Failed to load resource: the server responded with a status of 503 ()
+```
 
 the checkboxes will appear underneath the input box on some viewports (not all)
-``` Working on a fix after submission ```
-
-there maybe a conflict with older browser support
-
+``` issue fixed```
 
 ## Update
 
@@ -30,3 +55,8 @@ i will be adding more content in the future this app is a starting point for a m
 
 patches and updates will be notes and added here! 
 
+## Credits
+original inspiration came from an old scrap book that was litteres with sticky notes
+it had a saved by the bell theme that i tried to replicate witht he color style and background
+
+catnote came from the dark parts of the internet at https://imgur.com/gallery/VwFyi1G
